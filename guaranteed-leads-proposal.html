@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guaranteed Roofing Leads | Premium Lead Generation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .hero .subtitle {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            margin-bottom: 40px;
+        }
+        
+        .hero .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 10px 25px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            margin: 0 10px 10px;
+        }
+        
+        /* Section Styles */
+        .section {
+            padding: 80px 0;
+        }
+        
+        .section-alt {
+            background: #f8f9fa;
+        }
+        
+        .section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+        }
+        
+        .section h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+        
+        .section p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        
+        /* Cards */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        /* Stats */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .stat-box {
+            text-align: center;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #667eea;
+            display: block;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+        
+        /* Pricing */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .pricing-card {
+            background: white;
+            padding: 50px 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            text-align: center;
+            position: relative;
+        }
+        
+        .pricing-card.featured {
+            border: 3px solid #667eea;
+            transform: scale(1.05);
+        }
+        
+        .pricing-card.featured::before {
+            content: "MOST POPULAR";
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #667eea;
+            color: white;
+            padding: 5px 20px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        
+        .price {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin: 20px 0;
+        }
+        
+        .price span {
+            font-size: 1rem;
+            color: #666;
+            font-weight: 400;
+        }
+        
+        .features {
+            list-style: none;
+            margin: 30px 0;
+        }
+        
+        .features li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .features li:last-child {
+            border-bottom: none;
+        }
+        
+        /* CTA Button */
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px 50px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .cta-section {
+            text-align: center;
+            padding: 100px 0;
+            background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+            color: white;
+        }
+        
+        .cta-section h2 {
+            color: white;
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        /* ROI Calculator */
+        .calculator {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            margin-top: 40px;
+        }
+        
+        .calc-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .calc-row:last-child {
+            border-bottom: none;
+            font-weight: bold;
+            font-size: 1.3rem;
+            color: #667eea;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .pricing-card.featured { transform: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <span class="badge">🏆 Premium Lead Generation</span>
+            <span class="badge">📍 Local Market Domination</span>
+            <h1>Guaranteed Roofing Leads</h1>
+            <p class="subtitle">20-25 Qualified Calls Per Month — Or You Don't Pay</p>
+            <a href="#contact" class="cta-button">Get Started Today</a>
+        </div>
+    </section>
+
+    <!-- The Problem -->
+    <section class="section">
+        <div class="container">
+            <h2>Why Most Roofing Companies Struggle</h2>
+            <p>You're great at roofing. But marketing? That's a different story.</p>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-icon">😤</div>
+                    <h3>Leads Are Expensive</h3>
+                    <p>HomeAdvisor, Angi, and other lead sites charge $75-150 per shared lead. You're competing with 5 other roofers for the same customer.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📉</div>
+                    <h3>SEO Takes Forever</h3>
+                    <p>You've tried ranking your website. 6 months later, you're still on page 3. Meanwhile, you're paying for ads that barely break even.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">😰</div>
+                    <h3>Inconsistent Flow</h3>
+                    <p>One month you're swamped. The next month you're laying off crews. You need PREDICTABLE leads, not feast-or-famine.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Solution -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2>Here's How We Fix It</h2>
+            <p>We build high-ranking websites that generate exclusive leads — then send them directly to YOUR phone.</p>
+            
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <span class="stat-number">#1</span>
+                    <div class="stat-label">Google Ranking</div>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">20-25</span>
+                    <div class="stat-label">Calls Per Month</div>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">100%</span>
+                    <div class="stat-label">Exclusive Leads</div>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">3.5x</span>
+                    <div class="stat-label">Average ROI</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section">
+        <div class="container">
+            <h2>How It Works</h2>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-icon">1️⃣</div>
+                    <h3>We Build Your Lead Machine</h3>
+                    <p>We create a high-converting website targeting "roofing + your city" keywords. It ranks #1 on Google within 30-60 days.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">2️⃣</div>
+                    <h3>Calls Come to YOU</h3>
+                    <p>When homeowners search for roofing, they find YOUR site. They call the number — and it rings directly to your phone.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">3️⃣</div>
+                    <h3>You Close, We Deliver</h3>
+                    <p>You pay only for qualified calls from homeowners in your service area who need roofing services. No setup fees. No contracts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROI Calculator -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2>The Math That Matters</h2>
+            <p>See exactly what 20 calls per month means for your bottom line:</p>
+            
+            <div class="calculator">
+                <div class="calc-row">
+                    <span>Qualified Calls Per Month</span>
+                    <span>20</span>
+                </div>
+                <div class="calc-row">
+                    <span>Your Cost Per Call</span>
+                    <span>$200</span>
+                </div>
+                <div class="calc-row">
+                    <span>Total Monthly Investment</span>
+                    <span>$4,000</span>
+                </div>
+                <div class="calc-row">
+                    <span>Your Close Rate (conservative 25%)</span>
+                    <span>5 jobs</span>
+                </div>
+                <div class="calc-row">
+                    <span>Average Job Value</span>
+                    <span>$15,000</span>
+                </div>
+                <div class="calc-row">
+                    <span>Monthly Revenue Generated</span>
+                    <span>$75,000</span>
+                </div>
+                <div class="calc-row">
+                    <span>YOUR ROI</span>
+                    <span>1,775% — $71,000 profit</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section">
+        <div class="container">
+            <h2>Simple, Transparent Pricing</h2>
+            <p>No setup fees. No contracts. No bullshit.</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Pay Per Lead</h3>
+                    <div class="price">$200<span>/call</span></div>
+                    <ul class="features">
+                        <li>✓ Exclusive leads (not shared)</li>
+                        <li>✓ Qualified homeowners only</li>
+                        <li>✓ Your service area only</li>
+                        <li>✓ Real-time call forwarding</li>
+                        <li>✓ Call recording available</li>
+                    </ul>
+                    <a href="#contact" class="cta-button">Get Started</a>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <h3>Guaranteed Package</h3>
+                    <div class="price">$4,000<span>/month</span></div>
+                    <ul class="features">
+                        <li>✓ 20-25 guaranteed calls/month</li>
+                        <li>✓ Exclusive leads (not shared)</li>
+                        <li>✓ #1 Google ranking included</li>
+                        <li>✓ Dedicated landing page</li>
+                        <li>✓ Call tracking & recording</li>
+                        <li>✓ Monthly performance reports</li>
+                        <li>✓ <strong>Or you don't pay</strong></li>
+                    </ul>
+                    <a href="#contact" class="cta-button">Most Popular</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Commercial Focus</h3>
+                    <div class="price">Custom</div>
+                    <ul class="features">
+                        <li>✓ Commercial roofing leads</li>
+                        <li>✓ $25K-100K+ job values</li>
+                        <li>✓ Property manager contacts</li>
+                        <li>✓ B2B lead generation</li>
+                        <li>✓ Custom targeting</li>
+                        <li>✓ Account manager</li>
+                    </ul>
+                    <a href="#contact" class="cta-button">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <h2>Ready for Predictable Leads?</h2>
+            <p style="font-size: 1.3rem; opacity: 0.9; margin-bottom: 40px;">Stop competing for scraps. Start getting exclusive calls from homeowners who need roofing NOW.</p>
+            <a href="tel:+15551234567" class="cta-button" style="background: white; color: #667eea;">📞 Call Now: (555) 123-4567</a>
+            <p style="margin-top: 30px; opacity: 0.7;">Or email: leads@yourdomain.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Guaranteed Roofing Leads. All rights reserved.</p>
+            <p style="margin-top: 10px;">Premium lead generation for roofing contractors who want to scale.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
